@@ -52,3 +52,15 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+## GIT
+
+Setting up a new repository on GitHub
+
+echo "# redditsuite" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jameskingcz/redditsuite.git
+git push -u origin main
