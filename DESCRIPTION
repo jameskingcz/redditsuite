@@ -5,7 +5,7 @@ Version: 0.2.0
 Author: James King 
 Maintainer: James King <jameskingcz@gmail.com>
 Description: Helps pull data from praw....
-License: What license is it under?
+License: MIT + file LICENSE
 Depends:
     glue
 Encoding: UTF-8
