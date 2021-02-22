@@ -2,10 +2,18 @@
 % Please edit documentation in R/hello.R
 \name{hello}
 \alias{hello}
-\title{hello}
+\title{hello
+#' @author James King}
 \usage{
-hello()
+hello(name = "world")
+}
+\arguments{
+\item{name}{Someone's name}
 }
 \description{
 hello
+#' @author James King
+}
+\examples{
+hello(name = 'James')
 }
